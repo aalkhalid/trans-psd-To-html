@@ -1,0 +1,260 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Trans
+	Description: Website template
+	Author: Aal Khalid
+	Author URI: -------------
+	License: -------------
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Menu Section
+	3. Head Section
+	4. Off Section
+	5. Text Section
+	6. Such Section
+	7. Some Section
+  8. Contact Section
+  9. Projects Section
+  10. Footer Section
+
+-----------------------------------------------------------------------------------*/
+@font-face {
+  font-family: "Raleway-Light";
+  src: url("fonts/Raleway-Light.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+  font-family: 'Raleway Light',Calibri Light;
+}
+.container1{
+  width: 84%;
+  margin-left: auto;
+}
+.btn-outline-secondary {
+	color: #fff !important;
+	background-color: transparent !important;
+	border: 2px solid #fff !important;
+}
+.btn-outline-secondary:hover {
+	color: #F36523 !important;
+	background-color: transparent !important;
+	border: 2px solid #F36523 !important;
+}
+.md-form.md-outline label.active{
+  background: #323338;
+}
+.md-form.md-outline.form-lg label {
+	font-size: 17px;
+	transform: translateY(10px);
+}
+/**header-area**/
+#header-area{
+  background: url(img/bg.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.nav-menu {
+	padding: 10px 0;
+}
+.nav-menu ul li a {
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	padding: 12px 15px;
+	text-transform: uppercase;
+}
+.nav-menu ul li a:hover{
+  text-decoration: underline;
+  color: #FF6B1D;
+}
+.head-text img {
+	position: relative;
+	top: 2%;
+	left: 18%;
+	color: #fff;
+}
+.hr1 {
+	width: 3%;
+	padding: 1px;
+	background: #424242;
+}
+.hr2{
+  width: 3%;
+  padding: 1px;
+  background: #A4A4A4;
+  display: inline-block;
+  position: absolute;
+}
+.hr3{
+  width: 3%;
+  padding: 1px;
+  background: #6c6c6c;
+}
+.icon-area{
+  position: relative;
+top: 27%;
+}
+.icon-area i {
+	font-size: 24px;
+	padding: 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+}
+.icon-area i:hover{
+  color: #F36523;
+  border: 1px solid #F36523;
+}
+.orang{
+  background: #D2571B;
+  color:#fff;
+}
+.bg-area{
+  background: url(img/sun.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 27%;
+}
+.offset{
+  background: #D2571B;
+  position: relative;
+  top: 27%;
+}
+/**off-section**/
+#off-section{
+
+}
+#off-section a{
+  color: #D9D9D9;
+}
+#off-section i{
+  font-size: 25px;
+}
+#off-section a:hover{
+  color: #F36523;
+}
+/**such-section**/
+#such-section{
+  background: url(img/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.word{
+  background: #F36523;
+  color: #fff;
+    padding: 0;
+}
+.w-img{
+  padding: 0;
+}
+/**some-text**/
+#some-text{
+
+}
+.content{
+  background: #F36523;
+}
+.one{
+  padding: 0;
+}
+.some-head{
+  background: #F36523;
+}
+/**form-section**/
+#form-section{
+  overflow: hidden;
+}
+.md-form.md-outline input[type="password"], .md-form.md-outline input[type="email"]{
+  border-radius: 0px;
+}
+.dark{
+  background: #323338;
+}
+/**twobg-are**/
+#twobg-are{
+  background: url(img/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#twobg-are{
+  padding: 160px 0;
+  margin-left: -15px;
+}
+.orna{
+  padding: 0;
+}
+.tope {
+	margin-top: -158px;
+}
+.up {
+	margin-top: -145px;
+  margin-bottom: 110px;
+}
+/**footer-area**/
+#footer-area{
+  background: #323338;
+}
+#footer-area h4{
+  color:#D2571B;
+}
+#footer-area ul li{
+  padding: 6px 0;
+}
+#footer-area ul li a{
+  color: #fff;
+}
+#footer-area ul li a:hover{
+  color: #D2571B;
+}
+/**media**/
+@media (max-width:992px){
+  .up{
+    margin-top: 20px;
+  }
+}
+@media (max-width:660px){
+  .container1{
+    width: 98%;
+  }
+  #footer-area{
+    text-align: center;
+  }
+}
+@media (max-width:768px){
+  .nav__list.scrolled {
+    padding-left:0px;
+    padding:0px;
+ }
+   .container1 {
+    	width: 95%;
+    	margin-left: auto;
+  }
+}
+@media (max-width:760px){
+  .container1{
+    width: 98%;
+  }
+/* }
+@media (min-width:992px){
+    .container1 {
+    	width: 88.8%;
+    	margin-left: auto;
+  }
+}
+@media (min-width:1200px){
+  .container1 {
+  	width: 88.3%;
+  	margin-left: auto;
+  }
+} */
